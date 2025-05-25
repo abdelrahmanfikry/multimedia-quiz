@@ -652,102 +652,98 @@ const questions = [
         answers: ["Designing websites", "Improving search engine ranking", "Sending emails", "Editing photos"],
         correct: 1
     },
-
-
-// True/False questions نحاس 
-////
-///////////////////////////////////////////////////
-{
-    question: "Image filtering can help reduce noise in an image.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "A median filter is best suited for removing Gaussian noise.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "High-pass filters are used to sharpen images by enhancing edges.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Zero padding adds black pixels around the image to preserve size during filtering.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Histogram equalization decreases the contrast of an image.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Spatial filtering operates on the frequency components of the image.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "A low-pass filter removes high-frequency components such as noise and edges.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "The Sobel filter is used for edge detection in specific directions.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Gaussian noise appears as random black and white dots.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Convolution in image processing refers to multiplying two images.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "The Laplacian filter uses second derivatives to detect edges.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Weighted averaging filters give more importance to central pixels.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Median filters are linear filters.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "High-pass filters remove low-frequency components.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "The output size of an image after convolution is always smaller unless padding is used.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "A max filter keeps the darkest pixel value in the filter window.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "A min filter keeps the darkest pixel value in the filter window.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Band-pass filters keep only medium-frequency components.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
+    
+    {
+        question: "Image filtering can help reduce noise in an image.",
+        answers: ["True", "False"],
+        correct: 0
+    },
+    {
+        question: "A median filter is best suited for removing Gaussian noise.",
+        answers: ["True", "False"],
+        correct: 1
+    },
+    {
+        question: "High-pass filters are used to sharpen images by enhancing edges.",
+        answers: ["True", "False"],
+        correct: 0
+    },
+    {
+        question: "Zero padding adds black pixels around the image to preserve size during filtering.",
+        answers: ["True", "False"],
+        correct: 0
+    },
+    {
+        question: "Histogram equalization decreases the contrast of an image.",
+        answers: ["True", "False"],
+        correct: 1
+    },
+    {
+        question: "Spatial filtering operates on the frequency components of the image.",
+        answers: ["True", "False"],
+        correct: 1
+    },
+    {
+        question: "A low-pass filter removes high-frequency components such as noise and edges.",
+        answers: ["True", "False"],
+        correct: 0
+    },
+    {
+        question: "The Sobel filter is used for edge detection in specific directions.",
+        answers: ["True", "False"],
+        correct: 0
+    },
+    {
+        question: "Gaussian noise appears as random black and white dots.",
+        answers: ["True", "False"],
+        correct: 1
+    },
+    {
+        question: "Convolution in image processing refers to multiplying two images.",
+        answers: ["True", "False"],
+        correct: 1
+    },
+    {
+        question: "The Laplacian filter uses second derivatives to detect edges.",
+        answers: ["True", "False"],
+        correct: 0
+    },
+    {
+        question: "Weighted averaging filters give more importance to central pixels.",
+        answers: ["True", "False"],
+        correct: 0
+    },
+    {
+        question: "Median filters are linear filters.",
+        answers: ["True", "False"],
+        correct: 1
+    },
+    {
+        question: "High-pass filters remove low-frequency components.",
+        answers: ["True", "False"],
+        correct: 0
+    },
+    {
+        question: "The output size of an image after convolution is always smaller unless padding is used.",
+        answers: ["True", "False"],
+        correct: 0
+    },
+    {
+        question: "A max filter keeps the darkest pixel value in the filter window.",
+        answers: ["True", "False"],
+        correct: 1
+    },
+    {
+        question: "A min filter keeps the darkest pixel value in the filter window.",
+        answers: ["True", "False"],
+        correct: 0
+    },
+    {
+        question: "Band-pass filters keep only medium-frequency components.",
+        answers: ["True", "False"],
+        correct: 0
+    },
+   {
     question: "Spatial filters do not affect image brightness.",
     answers: ["True", "False"],
     correct: 1
@@ -856,10 +852,7 @@ const questions = [
     question: "Employee stories can help humanize a brand.",
     answers: ["True", "False"],
     correct: 0
-},/*
-// true and false hamed 
-///////////////////////////////////////////
-///////////////////////////////////////////
+},
 {
     question: "Run Length Encoding is a lossy method.",
     answers: ["True", "False"],
@@ -934,82 +927,88 @@ const questions = [
     question: "Video sequences contain temporal redundancy.",
     answers: ["True", "False"],
     correct: 0
-},
-{
-    question: "MIDI files are usually larger than digital audio files.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Lossless compression permanently removes audio data.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Audio editing cannot change the volume of a track.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "MP3 is an example of a lossy audio format.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Trimming in editing means cutting out unwanted parts.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Downsampling increases the quality of audio.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Digital Signal Processing (DSP) can add special effects.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Time stretching affects the pitch of the audio.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Equalization makes audio louder.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "MIDI files are not audio recordings but digital instructions.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Reversing audio can create surreal effects.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "DCT is used for removing redundancy in audio files.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Motion compensation reduces temporal redundancy in video.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "RLE is used to compress repeated values like zeros.",
-    answers: ["True", "False"],
-    correct: 0
-},
- {
+}
+,
+    {
+        question: "Video sequences contain temporal redundancy.",
+        answers: ["True", "False"],
+        correct: 0
+    },
+    {
+        question: "MIDI files are usually larger than digital audio files.",
+        answers: ["True", "False"],
+        correct: 1
+    },
+    {
+        question: "Lossless compression permanently removes audio data.",
+        answers: ["True", "False"],
+        correct: 1
+    },
+    {
+        question: "Audio editing cannot change the volume of a track.",
+        answers: ["True", "False"],
+        correct: 1
+    },
+    {
+        question: "MP3 is an example of a lossy audio format.",
+        answers: ["True", "False"],
+        correct: 0
+    },
+    {
+        question: "Trimming in editing means cutting out unwanted parts.",
+        answers: ["True", "False"],
+        correct: 0
+    },
+    {
+        question: "Downsampling increases the quality of audio.",
+        answers: ["True", "False"],
+        correct: 1
+    },
+    {
+        question: "Digital Signal Processing (DSP) can add special effects.",
+        answers: ["True", "False"],
+        correct: 0
+    },
+    {
+        question: "Time stretching affects the pitch of the audio.",
+        answers: ["True", "False"],
+        correct: 1
+    },
+    {
+        question: "Equalization makes audio louder.",
+        answers: ["True", "False"],
+        correct: 1
+    },
+    {
+        question: "MIDI files are not audio recordings but digital instructions.",
+        answers: ["True", "False"],
+        correct: 0
+    },
+    {
+        question: "Reversing audio can create surreal effects.",
+        answers: ["True", "False"],
+        correct: 0
+    },
+    {
+        question: "DCT is used for removing redundancy in audio files.",
+        answers: ["True", "False"],
+        correct: 0
+    },
+    {
+        question: "Motion compensation reduces temporal redundancy in video.",
+        answers: ["True", "False"],
+        correct: 0
+    },
+    {
+        question: "RLE is used to compress repeated values like zeros.",
+        answers: ["True", "False"],
+        correct: 0
+    },
+    {
     question: "A well-structured presentation should include an introduction, main body, and conclusion.",
     answers: ["True", "False"],
     correct: 0
-  },
+   },
   {
     question: "Prezi is a tool that allows you to create traditional linear slide shows only.",
     answers: ["True", "False"],
@@ -1055,1268 +1054,7 @@ const questions = [
     answers: ["True", "False"],
     correct: 0
   },
-  // Lecture 1: Image Enhancement Techniques hammed
-  //////////////////////////////////////////////////////////////////////////////////////////////
-{
-    question: "What is the primary purpose of low-pass filters in image processing?",
-    answers: ["Detecting edges", "Removing noise", "Enhancing contrast", "Color correction"],
-    correct: 1
-},
-{
-    question: "Which technique replaces the center pixel with the median of its Neighborhood?",
-    answers: ["Averaging filter", "Weighted filter", "Median filter", "Gaussian filter"],
-    correct: 2
-},
-{
-    question: "Convolution is typically used in:",
-    answers: ["Image segmentation", "Spatial filtering", "Image compression", "Color balancing"],
-    correct: 1
-},
-{
-    question: "Zero padding is used to:",
-    answers: ["Reduce noise", "Increase contrast", "Preserve image size after filtering", "Convert color to gray"],
-    correct: 2
-},
-{
-    question: "High-pass filters are best for:",
-    answers: ["Color correction", "Smoothing", "Sharpening", "Resizing"],
-    correct: 2
-},
-{
-    question: "Which filter is most effective against salt and pepper noise?",
-    answers: ["Median filter", "High-pass filter", "Low-pass filter", "Gaussian filter"],
-    correct: 0
-},
-{
-    question: "Frequency domain filtering is based on:",
-    answers: ["Pixel intensity", "Histogram equalization", "Frequency component of the image", "Image color"],
-    correct: 2
-},
-{
-    question: "Which of the following is NOT a use of high-pass filtering?",
-    answers: ["Edge detection", "Motion detection", "Blurring", "Medical imaging"],
-    correct: 2
-},
-{
-    question: "A mask in spatial filtering is:",
-    answers: ["A color filter", "A histogram", "A small matrix used in convolution", "A watermark"],
-    correct: 2
-},
-{
-    question: "Weighted averaging filters differ from normal averaging filters by:",
-    answers: ["Being non-linear", "Giving different weights to pixels", "Working in the frequency domain", "Ignoring edge pixels"],
-    correct: 1
-},
-{
-    question: "Spatial filtering involves which of the following?",
-    answers: ["Frequency adjustment", "Applying operations to pixel neighbourhoods", "Color shifting", "Bit-level manipulation"],
-    correct: 1
-},
-{
-    question: "What is the effect of convolution in image filtering?",
-    answers: ["Removes image", "Blurs image randomly", "Creates a new pixel value", "Crops Image"],
-    correct: 2
-},
-{
-    question: "The primary benefit of smoothing is to:",
-    answers: ["Improve edge sharpness", "Add noise", "Reduce irrelevant details", "Highlight texture"],
-    correct: 2
-},
-{
-    question: "Which filter keeps moderate frequencies only?",
-    answers: ["Low-pass", "High-pass", "Band-pass", "Edge"],
-    correct: 2
-},
-{
-    question: "Median filtering is best described as:",
-    answers: ["Linear", "Frequency-based", "Histogram-based", "Non-linear"],
-    correct: 3
-},
-{
-    question: "In edge detection, high-pass filters help in:",
-    answers: ["Hiding object boundaries", "Enhancing sharp transitions", "Equalizing contrast", "Merging images"],
-    correct: 1
-},
-{
-    question: "Convolution typically involves:",
-    answers: ["Histogram computation", "Matrix addition", "Mask operation", "Color channel rotation"],
-    correct: 2
-},
-{
-    question: "A major difference between spatial and frequency filtering is:",
-    answers: ["Use of colors", "Image size", "Domain of operation", "Image file format"],
-    correct: 2
-},
-{
-    question: "Zero padding adds:",
-    answers: ["Random noise", "High contrast", "Rows and columns of zeros", "RGB values"],
-    correct: 2
-},
-{
-    question: "Edge detection helps in:",
-    answers: ["Reducing noise", "Segmenting images", "Compressing files", "Adding color"],
-    correct: 1
-},
-
-// Lecture 2: Data Compression
-{
-    question: "What is the purpose of data compression?",
-    answers: ["Increase resolution", "Reduce storage/transmission cost", "Enhance colors", "Encrypt data"],
-    correct: 1
-},
-{
-    question: "Which of the following is an image compression format?",
-    answers: ["MP3", "GIF", "DOC", "AVI"],
-    correct: 1
-},
-{
-    question: "Lossless compression means:",
-    answers: ["Loss of image data", "Full recovery of original data", "High noise", "Only for audio"],
-    correct: 1
-},
-{
-    question: "JPEG is an example of:",
-    answers: ["Lossless compression", "Lossy compression", "No compression", "Secure format"],
-    correct: 1
-},
-{
-    question: "MP3 is used for compressing:",
-    answers: ["Images", "Videos", "Audio", "Text"],
-    correct: 2
-},
-{
-    question: "MPEG is related to:",
-    answers: ["Audio", "Video", "Image", "Spreadsheet"],
-    correct: 1
-},
-{
-    question: "Which step comes first in compression model?",
-    answers: ["Post-processing", "Pre-processing", "Encoding", "Decoding"],
-    correct: 1
-},
-{
-    question: "Temporal redundancy exists in:",
-    answers: ["Images", "Video sequences", "Audio", "Documents"],
-    correct: 1
-},
-{
-    question: "Entropy is used to measure:",
-    answers: ["Size", "Noise", "Average information per pixel", "Bit depth"],
-    correct: 2
-},
-{
-    question: "A high entropy value means:",
-    answers: ["Compressible", "No Information", "High information content", "Noisy file"],
-    correct: 2
-},
-{
-    question: "GIF compression is:",
-    answers: ["Lossy", "Lossless", "Hybrid", "Uncompressed"],
-    correct: 1
-},
-{
-    question: "Compression ratio compares:",
-    answers: ["Quality vs Size", "Compressed vs Encrypted", "Uncompressed vs Compressed", "Input vs Output bits"],
-    correct: 2
-},
-{
-    question: "Which compression type keeps file size small but loses quality?",
-    answers: ["Lossless", "Lossy", "None", "Balanced"],
-    correct: 1
-},
-{
-    question: "Human Visual System ignores:",
-    answers: ["Temporal data", "Irrelevant Information", "Spatial patterns", "Entropy"],
-    correct: 1
-},
-{
-    question: "Which one is not a redundancy type?",
-    answers: ["Spatial", "Temporal", "Coding", "Color"],
-    correct: 3
-},
-{
-    question: "Post-processing is used for:",
-    answers: ["Image rotation", "Color balancing", "Removing compression artifacts", "Increasing size"],
-    correct: 2
-},
-{
-    question: "High compression ratio means:",
-    answers: ["Poor quality", "Large file", "Better compression", "Low entropy"],
-    correct: 2
-},
-{
-    question: "A compression ratio of 1 means:",
-    answers: ["No compression", "Lossless", "High speed", "Full redundancy"],
-    correct: 0
-},
-{
-    question: "Spatial redundancy is caused by:",
-    answers: ["Similar adjacent pixels", "Loud sounds", "Fast frames", "File type"],
-    correct: 0
-},
-{
-    question: "Redundancy is helpful because it:",
-    answers: ["Wastes space", "Can be removed to compress", "Degrades image", "Enhances brightness"],
-    correct: 1
-},
-{
-    question: "An image is 65536 bytes and compressed to 6554 bytes. Find compression:",
-    answers: ["8", "10", "5", "12"],
-    correct: 1
-},
-{
-    question: "If CR = 10, what is RD?",
-    answers: ["0.1", "0.5", "0.9", "1.0"],
-    correct: 2
-},
-{
-    question: "CR = 8, then RD = ?",
-    answers: ["0.75", "0.5", "0.9", "0.25"],
-    correct: 0
-},
-{
-    question: "Original size = 100 KB, compressed size = 20 KB. CR = ?",
-    answers: ["4", "5", "2", "6"],
-    correct: 1
-},
-{
-    question: "If L = 8 and all probabilities = 1/8, Entropy H = ?",
-    answers: ["2", "3", "1", "4"],
-    correct: 1
-},
-{
-    question: "If L = 4 and all p = 1/4, entropy = ?",
-    answers: ["1", "3", "2", "4"],
-    correct: 2
-},
-{
-    question: "If CR = 4, RD = ?",
-    answers: ["0.5", "0.75", "0.8", "0.6"],
-    correct: 1
-},
-{
-    question: "CR = 1 means:",
-    answers: ["No compression", "100% redundancy", "Infinite compression", "Image is encrypted"],
-    correct: 0
-},
-{
-    question: "How to compute log2(x) using log10(x)?",
-    answers: ["Multiply by 3.32", "Multiply by 0.33", "Divide by 2", "Use In(x)"],
-    correct: 0
-},
-{
-    question: "Entropy formula includes:",
-    answers: ["+ sign", "summation of pixel values", "log base 10", "negative summation of P(i) log2(Pi)"],
-    correct: 3
-},
-
-// Lecture 3: Compression Algorithms
-{
-    question: "What type of compression is Run Length Encoding?",
-    answers: ["Lossy", "Lossless", "Hybrid", "Encrypted"],
-    correct: 1
-},
-{
-    question: "RLE works best with:",
-    answers: ["Noisy Images", "Text files", "Graphics with repeated patterns", "Audio"],
-    correct: 2
-},
-{
-    question: "JPEG compression is mainly:",
-    answers: ["Lossless", "Lossy", "Uncompressed", "Reversible"],
-    correct: 1
-},
-{
-    question: "Which of the following is NOT used in JPEG compression?",
-    answers: ["DCT", "RLE", "Quantization", "Arithmetic coding"],
-    correct: 3
-},
-{
-    question: "RLE may fail when:",
-    answers: ["There are lots of repeated values", "There's high image resolution", "There's no repetition", "It's combined with JPEG"],
-    correct: 2
-},
-{
-    question: "In RLE, which is correct for the sequence 33, 37?",
-    answers: ["(3,4)", "(4,3)", "(3,3)", "43"],
-    correct: 1
-},
-{
-    question: "A limitation of simple repetition suppression is:",
-    answers: ["Complexity", "Requires decoding", "Poor compression ratio", "Needs audio"],
-    correct: 2
-},
-{
-    question: "Pattern substitution replaces:",
-    answers: ["All spaces with slashes", "Rare patterns", "Frequent patterns", "Binary codes"],
-    correct: 2
-},
-{
-    question: "Replacing 'and' with '&' is an example of:",
-    answers: ["Lossless compression", "RLE", "Pattern substitution", "Encoding"],
-    correct: 2
-},
-{
-    question: "What type of flag is needed in repetition suppression?",
-    answers: ["Noise", "Repeat indicator", "Filter", "Keyframe"],
-    correct: 1
-},
-{
-    question: "Which is a disadvantage of RLE?",
-    answers: ["Complex algorithm", "Works only for video", "May increase file size", "Requires cloud processing"],
-    correct: 2
-},
-{
-    question: "RLE is included in JPEG as:",
-    answers: ["The only stage", "A lossless replacement", "One of multiple stages", "Used in decryption"],
-    correct: 2
-},
-{
-    question: "Pattern substitution is based on:",
-    answers: ["Machine learning", "Statistics", "Hardware", "Sampling"],
-    correct: 1
-},
-{
-    question: "RLE is commonly used for:",
-    answers: ["Videos", "Graphics", "Sound files", "Databases"],
-    correct: 1
-},
-{
-    question: "JPEG stands for:",
-    answers: ["Joint Photo Experts Graphics", "Java Picture Encoding Group", "Joint Photographic Experts Group", "JPEG is not an acronym"],
-    correct: 2
-},
-{
-    question: "Huffman coding is used in:",
-    answers: ["PNG", "JPEG", "GIF", "DOC"],
-    correct: 1
-},
-{
-    question: "Quantization in JPEG helps with:",
-    answers: ["Edge detection", "Color saturation", "Data reduction", "Resolution scaling"],
-    correct: 2
-},
-{
-    question: "DCT transforms image data into:",
-    answers: ["Binary", "Frequency components", "Colors", "Audio"],
-    correct: 1
-},
-{
-    question: "One advantage of pattern substitution is:",
-    answers: ["Increases detail", "Less memory used", "Maintains raw format", "Requires encryption"],
-    correct: 1
-},
-{
-    question: "Lossless compression means:",
-    answers: ["File size is always smaller", "Some data is discarded", "All original data is preserved", "Works only with audio"],
-    correct: 2
-},
-
-// Lecture 4: Image Restoration
-{
-    question: "Image restoration aims to:",
-    answers: ["Compress image", "Improve color", "Recover original image", "Convert format"],
-    correct: 2
-},
-{
-    question: "The noise model is represented as:",
-    answers: ["f(x,y)+g(x,y)=n(x,y)", "g(x,y)=f(x,y)+n(x,y)", "f(x,y)=n(x,y)+g(x,y)", "None"],
-    correct: 1
-},
-{
-    question: "Gaussian noise appears as:",
-    answers: ["Colored bands", "Grainy blur", "Sharp dots", "Horizontal lines"],
-    correct: 1
-},
-{
-    question: "Salt-and-pepper noise appears as:",
-    answers: ["Color smearing", "White and black dots", "Diagonal stripes", "Color shift"],
-    correct: 1
-},
-{
-    question: "Speckle noise is common in:",
-    answers: ["Nature photography", "Medical images", "Night shots", "Street photography"],
-    correct: 1
-},
-{
-    question: "Best filter for salt-and-pepper noise:",
-    answers: ["Average", "Gaussian", "Median", "Laplacian"],
-    correct: 2
-},
-{
-    question: "Source of Poisson noise:",
-    answers: ["Bit-depth", "Photon variability", "Signal delay", "Filter error"],
-    correct: 1
-},
-{
-    question: "Periodic noise is caused by:",
-    answers: ["Bit mismatch", "Voltage drop", "Electrical interference", "ISO setting"],
-    correct: 2
-},
-{
-    question: "Fourier Transform is used to remove:",
-    answers: ["Salt noise", "Pepper noise", "Periodic noise", "Poisson noise"],
-    correct: 2
-},
-{
-    question: "Quantization noise results from:",
-    answers: ["Sensor heating", "Light scatter", "Reducing color depth", "Sharpening"],
-    correct: 2
-},
-{
-    question: "Median filter is best for:",
-    answers: ["Speckle", "Gaussian", "Salt and pepper", "Quantization"],
-    correct: 2
-},
-{
-    question: "Gaussian filter is used to reduce:",
-    answers: ["Lines", "Impulses", "Gaussian noise", "Banding"],
-    correct: 2
-},
-{
-    question: "Impulse noise includes:",
-    answers: ["Periodic", "Quantization", "Salt & Pepper", "All"],
-    correct: 2
-},
-{
-    question: "Salt noise =",
-    answers: ["Black dots", "Random stripes", "White dots", "Light leak"],
-    correct: 2
-},
-{
-    question: "Pepper noise =",
-    answers: ["Red lines", "Dark dots", "Vertical stripes", "Color blur"],
-    correct: 1
-},
-{
-    question: "Solution to speckle noise:",
-    answers: ["Gaussian filter", "Median filter", "Adaptive filters", "Histogram equalization"],
-    correct: 2
-},
-{
-    question: "AWGN stands for:",
-    answers: ["Adaptive white Gaussian noise", "Additive white Gaussian noise", "Average weighted graphic noise", "Amplified wave group noise"],
-    correct: 1
-},
-{
-    question: "Which noise follows a normal distribution?",
-    answers: ["Poisson", "Speckle", "Gaussian", "Quantization"],
-    correct: 2
-},
-{
-    question: "Dithering is used to reduce:",
-    answers: ["Color shift", "Bit-depth loss", "Sharpness", "Brightness"],
-    correct: 1
-},
-{
-    question: "Which noise is most frequent in low-light?",
-    answers: ["Poisson", "Salt", "Quantization", "Periodic"],
-    correct: 0
-},
-
-// Audio Lectures
-{
-    question: "One of the main reasons to use audio in multimedia is to:",
-    answers: ["Increase color depth", "Replace text entirely", "Clarify meaning when visuals are insufficient", "Decrease file size"],
-    correct: 2
-},
-{
-    question: "Audio supports learners who:",
-    answers: ["Prefer diagrams", "Understand only text", "Learn better by listening", "Don't use visuals"],
-    correct: 2
-},
-{
-    question: "In multimedia, audio is considered:",
-    answers: ["Optional", "The least used element", "The most important element for engagement", "Replaced by images"],
-    correct: 2
-},
-{
-    question: "Audio is a better communication speed because it is:",
-    answers: ["Delayed and processed", "Less natural", "More direct and human-like", "More technical"],
-    correct: 2
-},
-{
-    question: "Audio helps learn from the content of the image.",
-    answers: ["Removing redundancy", "Enhancing text search", "Creating motion graphics", "Supporting different learning styles"],
-    correct: 3
-},
-{
-    question: "Analog sound is:",
-    answers: ["Binary-coded", "A sequence of 0s and 1s", "A continuous pressure wave", "Measured in pixels"],
-    correct: 2
-},
-{
-    question: "Audio refers to:",
-    answers: ["Live speech", "Sound before recording", "Digitized sound used by computers", "Non-electronic wave"],
-    correct: 2
-},
-{
-    question: "The difference between sound and audio is that:",
-    answers: ["Audio is analog, sound is digital", "Sound is recorded, audio is spoken", "Sound is analog, audio is digital", "There is no difference"],
-    correct: 2
-},
-{
-    question: "Computers can only work with:",
-    answers: ["Analog sound", "Audio signals", "Voltage levels", "Wave frequencies"],
-    correct: 1
-},
-{
-    question: "Sampling means:",
-    answers: ["Replacing values with 0s", "Measuring sound at equal time intervals", "Reducing sound pitch", "Mixing sound sources"],
-    correct: 1
-},
-{
-    question: "Quantization is:",
-    answers: ["Removing background noise", "Measuring volume in decibels", "Converting amplitudes to integers", "Analyzing sound quality"],
-    correct: 2
-},
-{
-    question: "Bit depth refers to:",
-    answers: ["The number of bits used for each second", "The number of levels used to represent amplitude", "The frequency of sound", "The size of the file"],
-    correct: 1
-},
-{
-    question: "Higher bit depths results in:",
-    answers: ["Larger image size", "Lower audio accuracy", "Better amplitude precision", "Lower resolution"],
-    correct: 2
-},
-{
-    question: "If bit depth = 8 bits, number of levels = ?",
-    answers: ["64", "128", "256", "512"],
-    correct: 2
-},
-{
-    question: "Encoding refers to:",
-    answers: ["Making audio louder", "Storing sampled values in analog form", "Converting digitized data into binary", "Compressing audio"],
-    correct: 2
-},
-{
-    question: "Mono audio uses:",
-    answers: ["Two channels", "Four speakers", "One channel", "No speakers"],
-    correct: 2
-},
-{
-    question: "Stereo audio provides:",
-    answers: ["360° sound", "Left and right channel separation", "Only background noise", "Single-point source"],
-    correct: 1
-},
-{
-    question: "Surround sound involves:",
-    answers: ["Single-channel input", "2 channels", "4–7 channels", "No channel separation"],
-    correct: 2
-},
-{
-    question: "Which of the following affects audio file size?",
-    answers: ["Pixel size", "Audio format", "Sample rate, bit depth, and duration", "Number of images"],
-    correct: 2
-},
-{
-    question: "Formula for stereo audio file size:",
-    answers: ["Sample rate × Bit depth × Time", "Sample rate × Bit depth × Time × 2", "Sample rate × Time × Channels", "None"],
-    correct: 1
-},
-{
-    question: "File with 44.1 kHz, 16-bit, stereo, 60 sec = ? (Bitrate)",
-    answers: ["44,100", "88,200", "1,411,200", "705,600"],
-    correct: 2
-},
-{
-    question: "The data rate (bitrate) of CD audio is:",
-    answers: ["176.4 Kbps", "88.2 Kbps", "1.4 Mbps", "192 Kbps"],
-    correct: 2
-},
-{
-    question: "Audio quality increases with:",
-    answers: ["Lower sample rate", "Lower bit depth", "Higher sample rate and bit depth", "Mono recording"],
-    correct: 2
-},
-{
-    question: "CD-quality audio has:",
-    answers: ["22 kHz, 8-bit", "44.1 kHz, 16-bit", "48 kHz, 8-bit", "11 kHz, 16-bit"],
-    correct: 1
-},
-{
-    question: "Telephone audio typically uses:",
-    answers: ["22 kHz, stereo", "8 kHz, mono", "44.1 kHz, stereo", "192 kHz, 24-bit"],
-    correct: 1
-},
-{
-    question: "Which of the following is NOT lossless?",
-    answers: ["WAV", "AIFF", "MP3", "FLAC"],
-    correct: 2
-},
-{
-    question: "MIDI files store:",
-    answers: ["Recorded voices", "Binary audio", "Music instructions", "Environmental sounds"],
-    correct: 2
-},
-{
-    question: "Lossy compression:",
-    answers: ["Keeps all data", "Reduces file size by removing inaudible data", "Is used for images only", "Cannot be used online"],
-    correct: 1
-},
-{
-    question: "Downloaded audio:",
-    answers: ["Requires internet always", "Is stored permanently", "Cannot be paused", "Is uncompressed"],
-    correct: 1
-},
-{
-    question: "Live streaming means:",
-    answers: ["File is saved to device", "Requires no internet", "Can't be paused or rewinded", "Compressed automatically"],
-    correct: 2
-},
-
-// Video Lectures
-{
-    question: "A video is composed of:",
-    answers: ["Continuous audio", "Still images in random order", "A time-ordered sequence of frames", "Live feed only"],
-    correct: 2
-},
-{
-    question: "The standard frame rates used in video are:",
-    answers: ["10, 12, 14", "15, 25, 30", "20, 28, 35", "5, 15, 60"],
-    correct: 1
-},
-{
-    question: "Aspect ratio refers to:",
-    answers: ["Brightness level", "Width-to-height ratio", "Sound pitch", "Frame rate"],
-    correct: 1
-},
-{
-    question: "A 16:9 aspect ratio is:",
-    answers: ["Taller than wide", "Square", "Wide-screen format", "Printing format"],
-    correct: 2
-},
-{
-    question: "What is raw video?",
-    answers: ["Processed video with effects", "Video from internet", "Unprocessed camera data", "Black-and-white video"],
-    correct: 2
-},
-{
-    question: "RGB model uses which colors?",
-    answers: ["Red, Blue, Yellow", "Cyan, Magenta, Yellow", "Red, Green, Blue", "Black, White, Red"],
-    correct: 2
-},
-{
-    question: "The color model used in TV signals is:",
-    answers: ["CMYK", "YUV", "RGB", "HSL"],
-    correct: 1
-},
-{
-    question: "The component 'Y' in YUV stands for:",
-    answers: ["Yellow", "Luminance (brightness)", "Y-axis", "Contrast"],
-    correct: 1
-},
-{
-    question: "HSL model represents:",
-    answers: ["Hue, Speed, Length", "Height, Sound, Length", "Hue, Saturation, Lightness", "Highlight, Shadow, Light"],
-    correct: 2
-},
-{
-    question: "Bitrate of HDTV is approximately:",
-    answers: ["720 Mbps", "1.39 Gbps", "5 Mbps", "2.4 Mbps"],
-    correct: 1
-},
-{
-    question: "Why compress video?",
-    answers: ["Add more effects", "Reduce clarity", "Reduce file size", "Increase FPS"],
-    correct: 2
-},
-{
-    question: "Spatial redundancy is:",
-    answers: ["Noise between speakers", "Repetition between frames", "Similarity between nearby pixels", "Data loss"],
-    correct: 2
-},
-{
-    question: "Temporal redundancy is found in:",
-    answers: ["Text", "Color filters", "Differences between frames", "RGB values"],
-    correct: 2
-},
-{
-    question: "DCT is used to:",
-    answers: ["Add sound", "Convert video to black and white", "Remove spatial redundancy", "Compress audio"],
-    correct: 2
-},
-{
-    question: "Motion Compensation is used to:",
-    answers: ["Increase resolution", "Add motion blur", "Reduce frame difference storage", "Encode audio"],
-    correct: 2
-},
-{
-    question: "First step in video compression is:",
-    answers: ["DCT", "Frame difference", "RGB to YUV", "Histogram equalization"],
-    correct: 2
-},
-{
-    question: "RLE is useful for:",
-    answers: ["Color correction", "Encoding sequences of zeros", "Audio remixing", "Enhancing resolution"],
-    correct: 1
-},
-{
-    question: "Zigzag scanning is used before:",
-    answers: ["Sampling", "DCT", "RLE", "Audio compression"],
-    correct: 2
-},
-{
-    question: "Compression within frame is called:",
-    answers: ["Inter-frame", "Intra-frame", "Bit-mapped", "Parallel coding"],
-    correct: 1
-},
-{
-    question: "Motion Compensation stores:",
-    answers: ["All pixels per frame", "Complete audio per frame", "Only differences between frames", "Brightness levels only"],
-    correct: 2
-},
-
-// Business Presentations
-{
-    question: "What is the purpose of structuring a presentation into intro, body, and conclusion?",
-    answers: ["Add animations", "Fill slides", "Organize message clearly", "Save time"],
-    correct: 2
-},
-{
-    question: "The Problem-Solution-Benefit model is best for:",
-    answers: ["Storytelling", "Persuasive presentations", "Technical reports", "Infographics"],
-    correct: 1
-},
-{
-    question: "Which tool is best for interactive, non-linear presentations?",
-    answers: ["Word", "Excel", "PowerPoint", "Prezi"],
-    correct: 3
-},
-{
-    question: "Which of the following improves audience memory?",
-    answers: ["Long paragraphs", "Detailed tables", "Visuals", "Monotone delivery"],
-    correct: 2
-},
-{
-    question: "Practicing your delivery helps you:",
-    answers: ["Memorize text", "Avoid using visuals", "Gain confidence", "Change content"],
-    correct: 2
-},
-{
-    question: "What does SEO help with?",
-    answers: ["Slide design", "Presentation rehearsals", "Higher ranking on search engines", "Better animations"],
-    correct: 2
-},
-{
-    question: "A voiceover in a proposal is an example of:",
-    answers: ["Audio", "Text", "Image", "Chart"],
-    correct: 0
-},
-{
-    question: "Which platform is ideal for publishing business digital stories?",
-    answers: ["PowerPoint", "Word", "Instagram", "Excel"],
-    correct: 2
-},
-{
-    question: "Adobe Acrobat is used to:",
-    answers: ["Write code", "Create interactive PDFs", "Record audio", "Host websites"],
-    correct: 1
-},
-{
-    question: "Canva helps in:",
-    answers: ["Making financial reports", "Designing beautiful proposals", "Data modeling", "Backend coding"],
-    correct: 1
-},
-{
-    question: "VR fully replaces the physical environment.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "AR is better than VR for try-ons because:",
-    answers: ["It adds digital to real world", "It's cheaper", "It uses black & white", "It works offline only"],
-    correct: 0
-},
-{
-    question: "A professional website builds:",
-    answers: ["Price", "Credibility", "Speed", "VR content"],
-    correct: 1
-},
-{
-    question: "Digital storytelling improves:",
-    answers: ["HR policies", "Technical specs", "Engagement", "Server speed"],
-    correct: 2
-},
-{
-    question: "Social media is best used for:",
-    answers: ["Testing audio", "Sending emails", "Sharing digital stories", "Writing contracts"],
-    correct: 2
-},
-{
-    question: "What is the first essential step in creating an impactful business presentation?",
-    answers: ["Add animation", "Use humor", "Understand your audience", "Insert charts randomly"],
-    correct: 2
-},
-{
-    question: "What is the purpose of the Problem–Solution–Benefit framework?",
-    answers: ["To present financial charts", "To add creative transitions", "To make the presentation persuasive", "To show all employee data"],
-    correct: 2
-},
-{
-    question: "Which tool is best for creating interactive PDF reports?",
-    answers: ["Canva", "PowerPoint", "Word", "Adobe Acrobat"],
-    correct: 3
-},
-{
-    question: "Digital storytelling in business is primarily used for:",
-    answers: ["Hardware testing", "Document archiving", "Branding and communication", "Password encryption"],
-    correct: 2
-},
-{
-    question: "Which platform is known for its zoomable canvas and storytelling design?",
-    answers: ["Excel", "Canva", "PowerPoint", "Prezi"],
-    correct: 3
-},
-{
-    question: "Which of the following is a use case for customer digital stories?",
-    answers: ["Explaining AR technology", "Describing employee salaries", "Sharing how a service helped a client", "Showing competitor reports"],
-    correct: 2
-},
-{
-    question: "What type of content does Augmented Reality (AR) overlay on the real world?",
-    answers: ["Documents", "Handwritten notes", "Digital content (images, 3D models, etc.)", "Live sound"],
-    correct: 2
-},
-{
-    question: "Which digital storytelling tool is used for editing and producing videos?",
-    answers: ["Blender", "Excel", "Adobe Premiere Pro", "Prezi"],
-    correct: 2
-},
-{
-    question: "What is one key benefit of using multimedia in reports?",
-    answers: ["Makes them longer", "Confuses the reader", "Increases engagement and clarity", "Requires less effort"],
-    correct: 2
-},
-//true  false hammed
-{
-    question: "Low-pass filters are used for edge detection.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Median filters are non-linear and good for removing impulse noise.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "High-pass filters amplify high-frequency details like edges.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Convolution reduces the size of the image significantly.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Band-pass filters retain both very low and very high frequencies.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Frequency domain filtering works on pixel values directly.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Smoothing filters are helpful in pre-processing to remove fine details.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Zero padding helps to maintain output size in convolution.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Spatial filtering requires Fourier transforms.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "High-pass filtering is useful in medical imaging and motion detection.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Lossy compression removes some image data.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Entropy measures the color of an image.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "MP3 is used for image compression.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "JPEG is a lossy compression format.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Compression ratio = compressed / uncompressed size.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Coding redundancy means using more bits than necessary.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Higher entropy = more information per pixel.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Post-processing is done before encoding.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "RD = 1 - (1 / compression ratio).",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "In lossless compression, the image can be perfectly restored.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "RLE is a lossy algorithm.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "JPEG compression includes both lossless and lossy stages.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Pattern substitution only works with numbers.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "RLE may fail if the data has no repetition.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Simple repetition suppression needs a special marker.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "JPEG uses DCT, quantization, Huffman coding, and RLE.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "RLE is good for compressing human speech.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Pattern substitution works by replacing rare symbols.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Using & instead of 'and' is pattern substation",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "compression efficency = compression ratio",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Image restoration is about enhancing colors.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Gaussian noise appears as smooth variation.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Salt-and-pepper noise is solved by Gaussian filter.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Median filter is best for impulse noise.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Fourier transform is used in frequency domain filtering.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Speckle noise is mostly in audio files.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Poisson noise is due to light variation.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Dithering can fix banding caused by quantization.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Periodic noise appears randomly.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "AWGN affects pixels with random values.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Sampling rate refers to how many times per second audio is measured.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "16-bit audio allows 65,536 possible amplitude levels.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Mono audio uses two channels.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Audio cannot be compressed.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "MP3 is a lossy compression format.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "MIDI files contain actual audio recordings.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Encoding is converting samples into binary.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Bit depth has no effect on audio quality.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Streaming audio can be rewinded anytime.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Surround sound systems use more than two channels.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Analog sound is a continuous waveform that varies with time.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Higher sample rate and bit depth result in higher audio quality.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "The audio file size is independent of duration.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "WAV files are uncompressed and large in size.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Lossless compression removes parts of the audio to reduce size.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Video is a continuous stream of light.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Frame rate affects how smooth a video appears.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "RGB is used mainly in printing.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "YUV separates brightness from color.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "CMYK is the color model used in photosensors.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "16:9 is a common widescreen format.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Bitrate measures how much data is needed per second.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Spatial redundancy compares between different frames.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Temporal redundancy compares between frames over time.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Zigzag scanning helps optimize RLE compression.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "DCT is used in video compression to remove spatial redundancy.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Intra-frame compression compares differences across multiple frames.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "YUV is more suitable for compression than RGB because it separates brightness.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Motion compensation helps reduce temporal redundancy.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Zigzag scanning randomizes pixel positions.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "PowerPoint offers animation and transition effects.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Prezi uses a zoomable canvas, ideal for storytelling.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Multimedia should be avoided in serious reports.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "AR replaces the real world with digital.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "VR is used for employee training.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Digital storytelling only applies to customers.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "SEO increases paid traffic.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Canva is used to design creative reports.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Voiceover is a valid way to explain data.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "A website working 24/7 increases accessibility.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "AR replaces the real world completely with a virtual one.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "VR provides immersive shopping environments in business.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Canva can be used to design visually attractive business proposals.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Microsoft Word cannot support multimedia content in reports.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Employee digital stories are used to showcase customer experiences.",
-    answers: ["True", "False"],
-    correct: 1
-}
-,]
-*/,]
+];
 // كلمة المرور للحذف
 const DELETE_PASSWORD = "00000";
 
