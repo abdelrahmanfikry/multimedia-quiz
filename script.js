@@ -1054,7 +1054,7 @@ const questions = [
     question: "Employee stories can help humanize a brand.",
     answers: ["True", "False"],
     correct: 0
-  },
+  },/*
   // Lecture 1: Image Enhancement Techniques hammed
   //////////////////////////////////////////////////////////////////////////////////////////////
 {
@@ -2314,7 +2314,7 @@ const questions = [
     question: "Employee digital stories are used to showcase customer experiences.",
     answers: ["True", "False"],
     correct: 1
-}
+}*/
 ,]
 
 // كلمة المرور للحذف
