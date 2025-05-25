@@ -856,7 +856,7 @@ const questions = [
     question: "Employee stories can help humanize a brand.",
     answers: ["True", "False"],
     correct: 0
-},]/*
+},/*
 // true and false hamed 
 ///////////////////////////////////////////
 ///////////////////////////////////////////
@@ -1054,7 +1054,7 @@ const questions = [
     question: "Employee stories can help humanize a brand.",
     answers: ["True", "False"],
     correct: 0
-  },/*
+  },
   // Lecture 1: Image Enhancement Techniques hammed
   //////////////////////////////////////////////////////////////////////////////////////////////
 {
@@ -2315,8 +2315,8 @@ const questions = [
     answers: ["True", "False"],
     correct: 1
 }
-,]*/
-
+,]
+*/,]
 // كلمة المرور للحذف
 const DELETE_PASSWORD = "00000";
 
