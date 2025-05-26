@@ -652,7 +652,8 @@ const questions = [
         answers: ["Designing websites", "Improving search engine ranking", "Sending emails", "Editing photos"],
         correct: 1
     },
-    
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////////
     {
         question: "Image filtering can help reduce noise in an image.",
         answers: ["True", "False"],
@@ -752,7 +753,158 @@ const questions = [
     question: "Image enhancement always results in larger file size.",
     answers: ["True", "False"],
     correct: 1
+},{
+    question: "Run Length Encoding is a lossy method.",
+    answers: ["True", "False"],
+    correct: 1
 },
+{
+    question: "JPEG is a lossless format.",
+    answers: ["True", "False"],
+    correct: 1
+},
+{
+    question: "Entropy measures the information content in a source.",
+    answers: ["True", "False"],
+    correct: 0
+},
+{
+    question: "The human eye can detect all changes in image data.",
+    answers: ["True", "False"],
+    correct: 1
+},
+{
+    question: "Quantization reduces image precision.",
+    answers: ["True", "False"],
+    correct: 0
+},
+{
+    question: "Pattern substitution removes all pixels.",
+    answers: ["True", "False"],
+    correct: 1
+},
+{
+    question: "Compression is not needed in business applications.",
+    answers: ["True", "False"],
+    correct: 1
+},
+{
+    question: "Coding redundancy occurs when symbols use longer codes than necessary.",
+    answers: ["True", "False"],
+    correct: 0
+},
+{
+    question: "DCT is used in JPEG compression.",
+    answers: ["True", "False"],
+    correct: 0
+},
+{
+    question: "Spatial redundancy is based on repetition in neighboring pixels.",
+    answers: ["True", "False"],
+    correct: 0
+},
+{
+    question: "Simple repetition suppression enhances detail in images.",
+    answers: ["True", "False"],
+    correct: 1
+},
+{
+    question: "Compression helps save bandwidth.",
+    answers: ["True", "False"],
+    correct: 0
+},
+{
+    question: "Irrelevant information is fully required for reconstruction.",
+    answers: ["True", "False"],
+    correct: 1
+},
+{
+    question: "Huffman coding uses equal-length codes for all characters.",
+    answers: ["True", "False"],
+    correct: 1
+},
+{
+    question: "Video sequences contain temporal redundancy.",
+    answers: ["True", "False"],
+    correct: 0
+}
+,{
+    question: "Speech recognition is the process of machines understanding spoken language.",
+    answers: ["True", "False"],
+    correct: 0
+},
+{
+    question: "MIDI files are usually larger than digital audio files.",
+    answers: ["True", "False"],
+    correct: 1
+},
+{
+    question: "Lossless compression permanently removes audio data.",
+    answers: ["True", "False"],
+    correct: 1
+},
+{
+    question: "Audio editing cannot change the volume of a track.",
+    answers: ["True", "False"],
+    correct: 1
+},
+{
+    question: "MP3 is an example of a lossy audio format.",
+    answers: ["True", "False"],
+    correct: 0
+},
+{
+    question: "Trimming in editing means cutting out unwanted parts.",
+    answers: ["True", "False"],
+    correct: 0
+},
+{
+    question: "Downsampling increases the quality of audio.",
+    answers: ["True", "False"],
+    correct: 1
+},
+{
+    question: "Digital Signal Processing (DSP) can add special effects.",
+    answers: ["True", "False"],
+    correct: 0
+},
+{
+    question: "Time stretching affects the pitch of the audio.",
+    answers: ["True", "False"],
+    correct: 1
+},
+{
+    question: "Equalization makes audio louder.",
+    answers: ["True", "False"],
+    correct: 1
+},
+{
+    question: "MIDI files are not audio recordings but digital instructions.",
+    answers: ["True", "False"],
+    correct: 0
+},
+{
+    question: "Reversing audio can create surreal effects.",
+    answers: ["True", "False"],
+    correct: 0
+},
+{
+    question: "DCT is used for removing redundancy in audio files.",
+    answers: ["True", "False"],
+    correct: 1
+},
+{
+    question: "Motion compensation reduces temporal redundancy in video.",
+    answers: ["True", "False"],
+    correct: 0
+},
+{
+    question: "ALE trained to compress repeated values like zeros.",
+    answers: ["True", "False"],
+    correct: 0
+}
+   
+    ,
 {
     question: "Sound is a digital wave that travels through space.",
     answers: ["True", "False"],
@@ -853,207 +1005,7 @@ const questions = [
     answers: ["True", "False"],
     correct: 0
 },
-{
-    question: "Run Length Encoding is a lossy method.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "JPEG is a lossless format.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Entropy measures the information content in a source.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "The human eye can detect all changes in image data.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Quantization reduces image precision.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Pattern substitution removes all pixels.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Compression is not needed in business applications.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Coding redundancy occurs when symbols use longer codes than necessary.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "DCT is used in JPEG compression.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Spatial redundancy is based on repetition in neighboring pixels.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Simple repetition suppression enhances detail in images.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Compression helps save bandwidth.",
-    answers: ["True", "False"],
-    correct: 0
-},
-{
-    question: "Irrelevant information is fully required for reconstruction.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Huffman coding uses equal-length codes for all characters.",
-    answers: ["True", "False"],
-    correct: 1
-},
-{
-    question: "Video sequences contain temporal redundancy.",
-    answers: ["True", "False"],
-    correct: 0
-}
-,
-    {
-        question: "Video sequences contain temporal redundancy.",
-        answers: ["True", "False"],
-        correct: 0
-    },
-    {
-        question: "MIDI files are usually larger than digital audio files.",
-        answers: ["True", "False"],
-        correct: 1
-    },
-    {
-        question: "Lossless compression permanently removes audio data.",
-        answers: ["True", "False"],
-        correct: 1
-    },
-    {
-        question: "Audio editing cannot change the volume of a track.",
-        answers: ["True", "False"],
-        correct: 1
-    },
-    {
-        question: "MP3 is an example of a lossy audio format.",
-        answers: ["True", "False"],
-        correct: 0
-    },
-    {
-        question: "Trimming in editing means cutting out unwanted parts.",
-        answers: ["True", "False"],
-        correct: 0
-    },
-    {
-        question: "Downsampling increases the quality of audio.",
-        answers: ["True", "False"],
-        correct: 1
-    },
-    {
-        question: "Digital Signal Processing (DSP) can add special effects.",
-        answers: ["True", "False"],
-        correct: 0
-    },
-    {
-        question: "Time stretching affects the pitch of the audio.",
-        answers: ["True", "False"],
-        correct: 1
-    },
-    {
-        question: "Equalization makes audio louder.",
-        answers: ["True", "False"],
-        correct: 1
-    },
-    {
-        question: "MIDI files are not audio recordings but digital instructions.",
-        answers: ["True", "False"],
-        correct: 0
-    },
-    {
-        question: "Reversing audio can create surreal effects.",
-        answers: ["True", "False"],
-        correct: 0
-    },
-    {
-        question: "DCT is used for removing redundancy in audio files.",
-        answers: ["True", "False"],
-        correct: 0
-    },
-    {
-        question: "Motion compensation reduces temporal redundancy in video.",
-        answers: ["True", "False"],
-        correct: 0
-    },
-    {
-        question: "RLE is used to compress repeated values like zeros.",
-        answers: ["True", "False"],
-        correct: 0
-    },
-    {
-    question: "A well-structured presentation should include an introduction, main body, and conclusion.",
-    answers: ["True", "False"],
-    correct: 0
-   },
-  {
-    question: "Prezi is a tool that allows you to create traditional linear slide shows only.",
-    answers: ["True", "False"],
-    correct: 1
-  },
-  {
-    question: "Digital storytelling is only used in education, not in business.",
-    answers: ["True", "False"],
-    correct: 1
-  },
-  {
-    question: "A website available 24/7 increases accessibility for customers.",
-    answers: ["True", "False"],
-    correct: 0
-  },
-  {
-    question: "SEO helps a website rank higher in search engine results.",
-    answers: ["True", "False"],
-    correct: 0
-  },
-  {
-    question: "Augmented Reality replaces the physical world with a digital one.",
-    answers: ["True", "False"],
-    correct: 1
-  },
-  {
-    question: "A good business website can help generate sales leads.",
-    answers: ["True", "False"],
-    correct: 0
-  },
-  {
-    question: "Using visuals in a presentation can distract the audience.",
-    answers: ["True", "False"],
-    correct: 1
-  },
-  {
-    question: "VR is used in business only for gaming applications.",
-    answers: ["True", "False"],
-    correct: 1
-  },
-  {
-    question: "Employee stories can help humanize a brand.",
-    answers: ["True", "False"],
-    correct: 0
-  },
+
 ];
 // كلمة المرور للحذف
 const DELETE_PASSWORD = "00000";
